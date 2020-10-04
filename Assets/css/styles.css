@@ -8,7 +8,6 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-image: url("Assets/images/images (1).jpeg");
     background-size: cover;
     background-position: center;
     background-color: aquamarine;
@@ -87,5 +86,19 @@ footer h2, footer div {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+.contact-me input,.contact-me textarea {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
 }
 
