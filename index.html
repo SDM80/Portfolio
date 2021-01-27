@@ -1,135 +1,150 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="Assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <!-- HEADER -->
   <header>
-    <h1>
-      <a href="Assets/images/IMG-7868.JPG" target="_blank">Sarah D. McNeel</a>
-    </h1>
+    <a href="/">
+      <h1>Sarah McNeel</h1>
+    </a>
     <nav>
-      <div class="nav-wrapper"> <img src="Assets/images/sb-blog-programming.jpeg">
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="about-me">About Me</a></li>
-          <li><a href="my-work">My Work</a></li>
-          <li><a href="contact-me">Contact Me</a></li>
-        </ul>
-      </div>
+      <ul>
+        <li>
+          <a href="#about-me">About Me</a>
+        </li>
+        <li>
+          <a href="#work">Work</a>
+        </li>
+        <li>
+          <a href="#contact-me">Contact Me</a>
+        </li>
+        <li>
+          <a href="#">Resume</a>
+        </li>
+      </ul>
     </nav>
   </header>
 
-  <figure>
-    <div class="geo">
-      <img src="Assets/images/portfolio background.jpg" alt="description of image" style="width:100%;">
-      <div class="text-block">
-        <h2></h2>
+  <!-- MAiN -->
+  <main>
+    <section class="hero">
+      <img src="Assets/images/sb-blog-programming.jpeg">
+      <div class="hero-text">
+        <h2>Text Area</h2>
       </div>
-    </div>
-  </figure>
+    </section>
+    <!-- Page Grid Container -->
+    <div class="main-content-grid">
 
-  <main class="flex-it">
-    <section id="about-me">
-      <div class="about-me">
-        <h2>About</br>Me</h2>
-        <p>I am a single mother of four brilliant children. I have owned and operated a General Contracting business in
-          Charlotte, NC for 14 years. I am also an ER Veterinary Technician and ICU Shift Supervisor for a large
-          Specialty and Emergency Animal Hospital in San Antonio, TX. I am an entrepreneur of sorts, as I love many
-          different challenges and adventures and hold various skill sets. I am excited to branch into the IT community
-          and make diverse web applications for people and businesses. I am currently enrolled in the Coding Full Stack
-          Web Development bootcamp at University of Texas at Austin to begin my next challenging adventure.<br><br>I
-          have
+      <!-- ABOUT ME -->
+      <section id="about-me" class="about-me">
+        <div class="title">
+          <h1>About <br> Me</h1>
+        </div>
+        <p>
+          I like to consider myself an entrepreneur of sorts. I have various interests and knowledge in many areas. From
+          owing and
+          operating a General Contracting business for 14 years, to working in Emergency Animal Medicine and supervising
+          an ICU
+          team at a specialty hospital and now diving into full-stack software development, I am continually wanting to
+          learn and
+          expand my knowledge. I find enjoyment in many things rather than just one. That is why I am excited about
+          being a
+          software developer, because it is continually growing and challenging and has many different areas of
+          creativity, growth
+          and rewarding possibilities to offer. I am a person of longevity and am looking forward to a future where I
+          can be a
+          valuable asset of creativity and production to a productive team. I am a mom of four amazing children, and
+          enjoy hiking
+          and running in my spare time.
         </p>
-      </div>
+      </section>
+      <!-- WORK -->
+      <section id="work" class="work">
 
-    </section>
+        <h1>WORK</h1>
 
-    <section id="work" class="work">
-      <div class="work-flex">
-
-        <h2> Work</h2>
-
-        <div class="grid-wrapper">
-
-          <div class="grid-container">
-            <div class="main-text">
-              <h3>Run Buddy</h3>
-              <h6>HTML/CSS</h6>
-              <a href="https://sarah-mcneel.github.io/Run-Buddy/">https://sarah-mcneel.github.io/Run-Buddy/</a>
-              <img src="Assets/images/Screen Shot 2020-11-15 at 4.17.40 PM.png" height="200" width="300" alt="" />
+        <div class="img-container">
+          <a href="https://fgutierrez2191.github.io/collectors-haven/browse.html" target="blank"
+            class="img-1 img-border img-color">
+            <div class="img-1-text-position">
+              <div class="work-img-text">
+                <h3>Collectors Haven</h3>
+                <p>html/css/javascript</p>
+              </div>
             </div>
-          </div>
+          </a>
+          <a href="https://sarah-mcneel.github.io/Run-Buddy/" target="blank" class="img-2 img-border">
+            <div class="img-2-text-position">
+              <div class="work-img-text">
+                <h3>Run Buddy</h3>
+                <p>html/css</p>
+              </div>
+            </div>
+          </a>
 
-          <div class="grid-item-secondary">
-            <a href="#">
-            </a>
-            <div class="secondary-text">
-              <h3>Robot-Gladiators</h3>
-              <h4>Java</h4>
-              <a href="https://sarah-mcneel.github.io/robot-gladiators/.">https://sarah-mcneel.github.io/robot-gladiators/.
-              </a>
+          <a href="https://sarah-mcneel.github.io/robot-gladiators/" target="blank" class="img-3 img-border">
+            <div class="img-3-text-position">
+              <div class="work-img-text">
+                <h3>Robot Gladiators</h3>
+                <p>javascript/css</p>
+              </div>
             </div>
-          </div>
+          </a>
 
-          <div class="grid-item-third">
-            <a href="#">
-              <img src="" height="200" width="300" alt="" />
-            </a>
-            <div class="third-text">
-              <h3>Collectors-Haven</h3>
-              <h4> HTML, CSS, JS </h4>
-              <a href="https://fgutierrez2191.github.io/collectors-haven/index.html">https://fgutierrez2191.github.io/collectors-haven/index.html
-              </a>
-              <img src="Assets/images/Screen Shot 2020-11-15 at 4.44.14 PM.png" height="200" width="300" alt="" />
+          <a href=" https://sarah-mcneel.github.io/Taskinator/" target="blank" class="img-4 img-border">
+            <div class="img-4-text-position">
+              <div class="work-img-text">
+                <h3>Taskinator</h3>
+                <p>css/javascript</p>
+              </div>
             </div>
-          </div>
-          <div class="grid-item-fourth">
-            <a href="#">
-            </a>
-            <div class="fourth-text">
-              <h3></h3>
-              <h4>Bootstrap</h4>
-            </div>
-          </div>
-          <div class="grid-item-fifth">
-            <a href="#">
-              <img src="" height="200" width="300" alt="" />
-            </a>
-            <div class="fifth-text">
-              <h3></h3>
-              <h4></h4>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-    </section>
+          </a>
 
-    <section id="contact-me">
-      <div class="contact-me">
-        <h2 class>Contact</br>Me</h2>
-        <div>
-          <a href="tel:210.619.6646">210.619.6646</a>
+          <a href="https://sarah-mcneel.github.io/HoriseonProject/" target="blank" class="img-5 img-border">
+            <div class="img-5-text-position">
+              <div class="work-img-text">
+                <h3>Horizeon</h3>
+                <p>html/css/</p>
+              </div>
+            </div>
+          </a>
+
         </div>
-        <div>
-          <a href="mailto:cybersarah80@gmail.com">cybersarah80@gmail.com</a>
+
+      </section>
+
+      <!-- Contact Me -->
+      <section id="contact-me" class="contact-me">
+        <h1>Contact <br> Me</h1>
+        <div class="contact-info">
+
+          <a href="mailto:sdawn8912@gmail.com" target="blank">sdawn8912@gmail.com</a>
+
+          <a href="https://www.linkedin.com/in/sarah-mcneel-5071391b6/" target="blank">Linkedin</a>
+
+          <a href="https://github.com/Sarah-McNeel" target="blank">GitHub</a>
+
+          <a href="https://docs.google.com/document/d/1HWaGd_TnetXHfQgEEQTSYmSGr8m0HiixIOMiy7b8v2c/edit?usp=sharing"
+            target="blank">Resume</a>
+
         </div>
-        <div>
-          <a href=">GitHub</a>
-        </div>
-        <div>
-          <a href= >LinkedIn</a>
-        </div>
-      </div>
-    </section>
+      </section>
+
+    </div>
   </main>
+  <!-- FOOTER -->
+  <footer>
 
-
+  </footer>
 </body>
 
 </html>
