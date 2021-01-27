@@ -222,12 +222,12 @@ header nav ul li a {
     top: 90px;
 }
 .img-border {
-    border: 4px solid#92B9BD;
+    border: 4px solid#92b9bd;
     text-decoration: none;
 }
 .work-img-text {
-    background-color:#92B9BD;
-    color: #484A47;
+    background-color:#484a47;
+    color: #f75c03;
     padding: 2px;
 }
 
@@ -254,7 +254,7 @@ header nav ul li a {
 }
 .contact-info a {
     text-decoration: none;
-    color: #484A47;
+    color: #f75c03;
     border-bottom: 2px solid #484A47;
 }
 
